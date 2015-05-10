@@ -105,6 +105,36 @@ class MCList extends HttpClient
         $this->sendWelcome = $sendWelcome;
     }
 
+    /**
+     * Set mailchimp delete member flag
+     *
+     * @param boolean $deleteMember boolean to fully delete member on unsubscribe
+     */
+    public function setDeleteMemeber($deleteMember)
+    {
+        $this->setDeleteMember = $deleteMember;
+    }
+
+    /**
+     * Set mailchimp send goodbye flag
+     *
+     * @param boolean $sendGoodbye boolean to send goodbye message to member on unsubscribe
+     */
+    public function setSendGoodbye($sendGoodbye)
+    {
+        $this->setSendGoodbye = $sendGoodbye;
+    }
+
+    /**
+     * Set mailchimp send notify flag
+     *
+     * @param boolean $sendNotify boolean to notify on member unsubscribe
+     */
+    public function setSendNotify($sendNotify)
+    {
+        $this->setSendNotify = $sendNotify;
+    }
+
    /**
     * Set mailchimp merge_vars
     * 
