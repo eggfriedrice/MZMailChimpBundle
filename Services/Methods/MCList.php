@@ -112,7 +112,7 @@ class MCList extends HttpClient
      */
     public function setDeleteMemeber($deleteMember)
     {
-        $this->setDeleteMember = $deleteMember;
+        $this->deleteMember = $deleteMember;
     }
 
     /**
@@ -122,7 +122,7 @@ class MCList extends HttpClient
      */
     public function setSendGoodbye($sendGoodbye)
     {
-        $this->setSendGoodbye = $sendGoodbye;
+        $this->sendGoodbye = $sendGoodbye;
     }
 
     /**
@@ -132,7 +132,7 @@ class MCList extends HttpClient
      */
     public function setSendNotify($sendNotify)
     {
-        $this->setSendNotify = $sendNotify;
+        $this->sendNotify = $sendNotify;
     }
 
    /**
