@@ -110,7 +110,7 @@ class MCList extends HttpClient
      *
      * @param boolean $deleteMember boolean to fully delete member on unsubscribe
      */
-    public function setDeleteMemeber($deleteMember)
+    public function setDeleteMember($deleteMember)
     {
         $this->deleteMember = $deleteMember;
     }
